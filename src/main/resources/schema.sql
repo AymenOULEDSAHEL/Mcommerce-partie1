@@ -1,0 +1,2 @@
+--create table Product (id bigint auto_increment, name varchar2(256), price number,purchasePrice number);
+create table product (id IDENTITY NOT NULL PRIMARY KEY, name varchar2(256), price number,purchasePrice number);
